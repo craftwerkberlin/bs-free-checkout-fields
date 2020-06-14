@@ -3,9 +3,9 @@
 Contributors: craftwerk
 
 Requires at least: 4.5
-Tested up to: 5.3.2
+Tested up to: 5.4.2
 Requires PHP: 5.6
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,6 +19,10 @@ WC Free Checkout Fields for WooCommerce, Copyright 2020 Bastian Kreiter. Fork of
 3. Click Activate to use your new Plugin right away.
 
 == Changelog ==
+
+    = 1.0.1 - June 14 2020 =
+    
+        * Show "FREE" instead 0,00 if product is free
 
     = 1.0.0 - April 16 2020 =
     
