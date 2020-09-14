@@ -1,5 +1,5 @@
 <?php
-/*Plugin Name: WC free checkout fields
+/*Plugin Name: bS Free Checkout Fields
 Plugin URI: https://bootscore.me/
 Description: This plugin reduces the checkput fields and hide payment if product is free and cart 0 in WooCommerce. It is a fork of https://gist.github.com/bekarice/474ab82ab37b8de8617d#file-wc-free-checkout-fields-php
 Version: 1.0.1
@@ -74,7 +74,7 @@ add_filter( 'woocommerce_get_price_html', 'bootscore_price_free_zero_empty', 999
    
 function bootscore_price_free_zero_empty( $price, $product ){
     if ( '' === $product->get_price() || 0 == $product->get_price() ) {
-        $price = '<span class="woocommerce-Price-amount amount text-danger">FREE</span>';
+        $price = '<span class="woocommerce-Price-amount amount badge badge-danger">FREE</span>';
     }  
     return $price;
 }

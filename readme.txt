@@ -1,4 +1,4 @@
-=== WC Free Checkout Fields ===
+=== bS Free Checkout Fields ===
 
 Contributors: craftwerk
 
